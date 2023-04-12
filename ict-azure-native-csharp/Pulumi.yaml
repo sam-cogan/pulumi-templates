@@ -1,0 +1,18 @@
+name: ${PROJECT}
+runtime: dotnet
+description: ${DESCRIPTION}
+
+template:
+  description: A Minimal Azure Native C# ICT Program
+  config:
+    azure:region:
+      description: The Azure Region to deploy to
+      default: westeurope
+    samcogan:point_of_contact:
+      description: Email adress of the person or team to contact about these resources
+    samcogan:location:
+      description: The Azure Region to deploy to
+      default: westeurope
+    samcogan:environment:
+      description: Environment Type (DEV, TEST, PROD)
+      default: DEV
